@@ -3,20 +3,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Authors</h1>
+    <h1>Stephen</h1>
+    <p>Stephen</p>
+    <img src="synthwavecity.jpg">
+    <br><br>
+    <button onclick="myFunction()">Click Me</button>
 
-    <ul>
-        <li>Ariel Larin</li>
-        <li>Benjamin Lindeen</li>
-        <li>Robert Wang</li>
-        <li>Justin Lee</li>
-        <li>Mao Chang</li>
-        <li>Stephen Ma</li>
-    </ul>
+    <h1>Guestbook</h1>
 
+    <form id="registrationForm">
+        <label for="userName">User Name:</label>
+        <input type="text" id="userName" name="userName" required>
 
-    
+        <button type="button" onclick="addUser()">Submit</button>
+    </form>
+
+    <h2>Current Users</h2>
+    <ul id="userList"></ul>
 </body>
 </html>

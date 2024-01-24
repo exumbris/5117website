@@ -1,0 +1,13 @@
+h1 {
+    background-color: aqua;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 250px;
+    height: 150px;
+    border-radius: 5%;
+}
